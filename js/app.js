@@ -50,7 +50,7 @@ if (answer4 === 'yes' || answer4 === 'y') {
 }
 
 var answer5 = prompt('Do I like hiking?').toLowerCase();
-console.log('user was asked about my hiking interest')
+console.log('user was asked about my hiking interest');
 
 if (answer5 === 'yes' ||  answer5 === 'y') {
   alert(userName + ', you are right this time.');

@@ -1,11 +1,22 @@
 
+body {
+    background-image: url(../img/space.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+
 h1 {
     color: Purple;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
 }
 p {
-    font-size: 12px;
+    font-size: 25px;
+    color: white;
 
     
 }
