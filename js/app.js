@@ -61,33 +61,51 @@
   
 // }
 
+// var i;
 
-// break
-// flag
+// for (i = 0; i < 4; i++) {  
+
+//   var answer6 = prompt('What is my favorite number?');
+//   var favoriteNumber = 3;
+
+//   if (answer6 > favoriteNumber) {
+//     alert('too big');    
+//   } else if (answer6 < favoriteNumber) {
+//     alert('too small');    
+//   } else if (answer6 = favoriteNumber) {
+//     alert('perfect');
+//     break;    
+//   } else {
+//     alert('invalid')
+//   }
+// }
+
+// if (i != 4) {
+//   alert('Good job again.');
+// } else {
+//   alert('You are not good at this.');
+// }
 
 
+var statesLived = ['oregon' , 'california'];
+var j;
 
+for (j = 0; j < 6; j++) {
+  var answer7 = prompt('Can you guess a state I lived in besides Washington?');
 
-
-  
-
-var i;
-
-for (i = 0; i < 4; i++) {  
-
-  var answer6 = prompt('What is my favorite number?');
-  var favoriteNumber = 3;
-
-  if (answer6 > favoriteNumber) {
-    alert('too big');    
-  } else if (answer6 < favoriteNumber) {
-    alert('too small');    
-  } else if (answer6 = favoriteNumber) {
-    alert('perfect');
-    i = 4    
+  if (statesLived.indexOf(answer7) >= 0) {
+    alert('Nice one');  
+    break;
   } else {
-    alert('invalid')
-  }
-  
-}
+    alert('nah try again');  
+  } 
 
+}
+alert(j);
+
+if (j >= 6) {
+  alert('no more tries');
+  alert('These were the correct answers ' + statesLived)
+} else {
+  alert ('good job you could have also said ' + statesLived);
+}
