@@ -7,6 +7,12 @@
     width: 50%; */
 /* } */
 
+ul {
+    color: antiquewhite;
+}
+ol {
+    color: white;
+}
 
 
 body {
