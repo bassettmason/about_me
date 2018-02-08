@@ -71,6 +71,7 @@ var i;
 for (i = 0; i < 4; i++) {  
 
   var answer6 = prompt('What is my favorite number?');
+  console.log ('User asked to pick my favorite Number')
   var favoriteNumber = 3;
 
   if (answer6 > favoriteNumber) {
@@ -98,6 +99,7 @@ var j;
 
 for (j = 0; j < 6; j++) {
   var answer7 = prompt('Can you guess a state I lived in besides Washington?');
+  console.log ('User asked what other states I lived in')
 
   if (statesLived.indexOf(answer7) >= 0) {
     alert('Nice one'); 
@@ -117,3 +119,4 @@ if (j >= 6) {
 }
 
 alert('You got ' + correctAnswers + '/7 ' + 'correct.')
+console.log ('alerting the correct answers out of total questions')
