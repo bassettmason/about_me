@@ -97,7 +97,7 @@ function question6() {
       alert('too small');
     } else if (answer6 === favoriteNumber) {
       alert('perfect');
-      //correctAnswers += 1;
+      correctAnswers += 1;
       break;
     } else {
       alert('invalid');
@@ -110,7 +110,7 @@ function question6() {
     alert('You are not good at this.');
   }
 }
-
+//sdfsdfsdfsdgisfsdfd
 function question7() {
   var statesLived = ['oregon' , 'california'];
   var j;
